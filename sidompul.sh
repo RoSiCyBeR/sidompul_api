@@ -6,7 +6,7 @@ login_email=""
 file_output="/tmp/xl.json"
 
 login() {
-	echo "Login $login_email..."
+	echo "Login $aisyajudit@gmail.com..."
 	curl -sH 'x-dynatrace: MT_3_2_763403741_15-0_a5734da2-0ecb-4c8d-8d21-b008aeec4733_30_456_73' \
 	-H 'accept: application/json' -H 'authorization: Basic ZGVtb2NsaWVudDpkZW1vY2xpZW50c2VjcmV0' \
 	-H 'language: en' -H 'version: 4.1.2' -H 'user-agent: okhttp/3.12.1' \
